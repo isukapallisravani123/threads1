@@ -8,7 +8,7 @@ import string
 import nltk
 import spacy
 
-with open("tfidf_vectorizer.pkl", "rb") as file:
+with open("svm_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 with open("tfidf_vectorizer.pkl", "rb") as file:
